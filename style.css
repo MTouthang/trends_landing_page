@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Orbitron;
+}
+
+.container {
+    height: 100vh;
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    
+}
+
+/*** nav list menu ***/
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    
+}
+.list-item {
+    padding: 20px 40px;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+.underline:hover{
+   text-decoration: underline;
+   text-underline-offset: 5px;
+}
+
+
+
+/*** search and button ***/
+.button-group{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.nav-button {
+    padding: 8px 30px;
+    border-radius: 6px;
+    background-color: #fff;
+    font-weight: 600;
+    color: #7C7C7C;
+    
+}
+.search-icon {
+   padding-right: 10px;
+   padding-top: 10px;
+}
+
+/** Hero Banner section **/
+.banner{
+    position: relative;
+}
+.hero-container{
+    position: relative;
+}
+
+.star {
+    position: absolute;
+    top: 60px;
+    left: 90%;
+}
+.globe {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+}
+.square {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 150px;
+    left: 110px;
+    
+    
+}
+
+.imagep{
+    position: absolute;
+    width: 400px;
+    height: 490px;
+    top: 20px;
+    left: 55px;
+}
+
+/** hero-container-right **/
+.hero-container-right{
+    position: absolute;
+    top: 150px;
+    left: 600px;;
+    align-items: center;
+}
+
+.hero-heading {
+    font-size: 3.2rem;
+    padding-bottom: 50px;   
+}
+.hero-description{
+    font-family: sans-serif;
+    color: #7C7C7C;
+    text-align: center;
+    width: 80%;
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+.button-email {
+    color: #7C7C7C;
+    background-color: #fff;
+    padding: 5px 20px;
+    border-radius: 6px;
+    font-family: Orbitron;
+    font-weight: bold;
+    align-items: center;
+    font-size: medium;
+    margin-left: 25%;
+    margin-bottom: 60px;
+
+}
+.button-join {
+    color: #fff;
+    background-color: #000;
+    padding: 5px 8px;
+    border-radius: 6px;
+    font-family: Orbitron;
+    align-items: center;
+    font-size: medium;
+    margin-left: 5px;
+    margin-bottom: 60px;
+}
+
+.contact-heading{
+    margin-left: 40%; 
+    color: #7C7C7C;
+    margin-top: 2%;  
+}
+.icons {
+    margin-left: 35%;   
+}
